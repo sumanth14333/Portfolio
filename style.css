@@ -1,0 +1,95 @@
+*{
+    font-family: 'Bree Serif';
+
+}
+.card-container{
+    gap: 5px;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-shrink: initial;
+    color: hsl(0, 0%, 100%);
+     
+    /* overflow: auto; */ 
+}
+.bg-container{
+    width: 300px;
+    height: max-content;
+    background-color: #818181;
+}
+
+.dummy{
+    width: 300px;
+    height: 20vh;
+}
+.dummy-div{
+    height: 100px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: bold;
+}
+.nav-list{
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    width: 500px;
+}
+
+.tg{
+    display: none;
+}
+
+a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.picture{
+    border-radius: 50%;
+}
+
+.info{
+    padding: 0 40px;
+}
+.discription-about-me{
+    color: #ffffff;
+    word-spacing: 5px;
+    line-height: 2px;
+}
+.btech-card, .diploma-card, .tenth-card{
+    background-color: hsla(0, 0%, 7%, 0.853);
+    width: 600px;
+    padding: 25px;
+    color: white;
+}
+.year{
+    color: aqua;
+    text-shadow: 1px 1px 2px white;
+}
+
+@media screen and (min-width:218px) {
+    .nav-list{
+        display: none;
+    }
+    /* .picture{
+        width: 150px;
+        height: 150px;
+    } */
+    /* .profile-container{
+        flex-direction: column;
+    } */
+    
+}
